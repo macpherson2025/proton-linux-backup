@@ -1,0 +1,26 @@
+# Local configuration and secrets
+config.conf
+*.env
+.env*
+!.env.example
+rclone.conf
+*.gpg
+*.key
+*.pem
+*.token
+
+# Backup logs and temporary files
+logs/
+*.log
+*.tmp
+*.part
+
+# Local test data
+test-data/
+restore-output/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+*~
